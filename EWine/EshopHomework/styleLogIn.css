@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+body {
+	font-family: sans-serif;	
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+    background-color:white;
+	margin:0;
+	padding:0;
+	font-weight: normal;
+	font-family: Raleway;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: #005C97;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: lighter;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    padding-bottom: 50px;
+}
+
+
+.container {
+	width: 380px;
+	margin:7% auto;
+	border-radius: 25px;
+	box-shadow: 0 0 17px#232526; 
+}
+
+.header {
+	text-align: center;
+	padding-top: 75px;
+}
+
+.header h1 {
+	color:#005C97;
+	font-size: 75px;
+	margin-bottom: 80px;
+	font-weight:normal;
+}
+
+.main {
+	text-align: center;
+}
+
+.main input {
+	width: 300px;
+	height: 40px;
+	border:none;
+	outline: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color:#0F2027;
+	margin-bottom: 40px;
+}
+
+
+
+
+.main span {
+	position: relative;
+}
+
+.main i {
+	position: absolute;
+	left: 15px;
+	color:white;
+	font-size: 16px;
+	top: 2px;
+}
+
+ #login-btn{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	background:#00416A;
+	color: white;
+	border-radius: 44px;
+	cursor: pointer;
+	transition: 0.8s;
+  }
+  
+  #login-btn:hover{
+	transform: scale(0.96);
+  } 
